@@ -1,0 +1,39 @@
+* {
+	margin: 0px;
+	padding: 0px;	
+}
+.container {
+	height: 100vh;
+	width: 30vw;
+	display:flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+}
+.goldCounter {
+	outline: 2px solid black;
+	margin-left: 18px;
+	padding: 5px;
+}
+
+.boxes {
+	display: flex;
+	justify-content: space-between;
+	margin: 30px;
+}
+.box {
+	outline: 2px solid black;
+	height: 200px;
+	width: 200px;
+	flex: 1 0 1;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.log {
+	display: flex;
+	flex-direction: column;
+	outline: 2px solid black;
+	height: 160px;
+	overflow-y: auto;
+}
